@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interfaz de Horarios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Horarios</h1>
+    
+    <div class="section">
+      <h2>Lista de Cursos</h2>
+      <div id="cursos-list"></div>
+    </div>
+    
+    <div class="section">
+      <h2>Agregar Nuevo Curso</h2>
+      <form id="curso-form">
+        <input type="text" id="nombre" placeholder="Nombre del curso" required>
+        <input type="text" id="codigo" placeholder="ID del idioma" required>
+        <input type="number" id="dia" placeholder="ID del día" required>
+        <button type="submit">Guardar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
