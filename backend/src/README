@@ -1,0 +1,8 @@
+Herramientas utilizadas
+JavaScript (Express.js)
+Base de Datos Relacionales (MySQL)
+Estructura MVC (Model View Controller)
+
+Servidor en localhost
+1. cd ProyectoHorario\backend
+2. node app.js
